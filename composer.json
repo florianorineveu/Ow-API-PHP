@@ -1,0 +1,25 @@
+{
+    "name": "fnev-eu/ow-api-php",
+    "description": "PHP wrapper for Ow-API",
+    "keywords": ["api", "ow-api", "owapi", "overwatch", "php"],
+    "homepage": "https://ow-api.com/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian \"Ori\" Neveu",
+            "email": "hello@fnev.eu"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "OwAPI": "src/"
+        }
+    }
+}
