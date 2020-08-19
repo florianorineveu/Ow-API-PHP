@@ -7,7 +7,7 @@
 
 This repository contains an unofficial PHP wrapper for the Ow-API.
 
-API resources and response examples are in the [Offical Documentation](https://ow-api.com/).
+API resources and response examples are in the [Official Documentation](https://ow-api.com/).
 
 ## Table of contents
 
