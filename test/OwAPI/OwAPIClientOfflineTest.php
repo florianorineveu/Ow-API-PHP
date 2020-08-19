@@ -45,7 +45,7 @@ class OwAPIClientOfflineTest extends TestCase
             '/stats/' . $this->testPlatform . '/' . $this->testRegion . '/' . $this->testBattletag . '/profile',
             $response
         );
-        $this->assertUserAgent('ow-api-php/' . phpversion() . '/1.0.1', $response);
+        $this->assertUserAgent('ow-api-php/' . phpversion() . '/1.0.3', $response);
         $this->assertStatusCode('', $response);
         $this->assertGetBody('', 'name', $response);
     }
@@ -59,7 +59,7 @@ class OwAPIClientOfflineTest extends TestCase
             '/stats/' . $this->testPlatform . '/' . $this->testRegion . '/' . $this->testBattletag . '/complete',
             $response
         );
-        $this->assertUserAgent('ow-api-php/' . phpversion() . '/1.0.1', $response);
+        $this->assertUserAgent('ow-api-php/' . phpversion() . '/1.0.3', $response);
         $this->assertStatusCode('', $response);
         $this->assertGetBody('', 'name', $response);
     }
@@ -73,7 +73,7 @@ class OwAPIClientOfflineTest extends TestCase
             '/stats/' . $this->testPlatform . '/' . $this->testRegion . '/' . $this->testBattletag . '/heroes/mercy,brigitte',
             $response
         );
-        $this->assertUserAgent('ow-api-php/' . phpversion() . '/1.0.1', $response);
+        $this->assertUserAgent('ow-api-php/' . phpversion() . '/1.0.3', $response);
         $this->assertStatusCode('', $response);
         $this->assertGetBody('', 'name', $response);
     }
