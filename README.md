@@ -1,7 +1,7 @@
 # Ow-API (Overwatch API) PHP Wrapper
 
 ![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)
-![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Current Version](https://img.shields.io/badge/version-1.0.1-green.svg)
 
 ## Overview
 

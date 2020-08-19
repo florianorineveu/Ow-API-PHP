@@ -59,6 +59,9 @@ class Request extends GuzzleClient
         return new Response($this, $response);
     }
 
+    /**
+     * @return string
+     */
     public function getUrl()
     {
         return $this->url;

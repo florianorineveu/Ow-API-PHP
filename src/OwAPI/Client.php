@@ -78,12 +78,21 @@ class Client
         return $this->request($uri);
     }
 
+    /**
+     * @param $uri
+     * @return Response
+     * @throws \GuzzleHttp\Exception\GuzzleException
+     */
     private function request($uri) {
         $request = new Request($uri);
 
         return $request->call($this->call);
     }
 
+    /**
+     * @param string $battletag
+     * @return string
+     */
     private function clearBattletag(string $battletag): string
     {
         return str_replace('#', '-', $battletag);
