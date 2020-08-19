@@ -1,0 +1,10 @@
+.idea/
+
+phpunit.xml
+.phpunit.result.cache
+
+*.bak
+*.un~
+.directory
+.Trash-*
+.DS_Store

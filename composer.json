@@ -8,10 +8,13 @@
     "authors": [
         {
             "name": "Florian \"Ori\" Neveu",
-            "email": "hello@fnev.eu"
+            "email": "hello@fnev.eu",
+            "homepage": "https://fnev.eu"
         }
     ],
     "require": {
+        "php": "7.1",
+        "ext-json": "*",
         "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
