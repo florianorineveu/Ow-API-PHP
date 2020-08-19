@@ -14,7 +14,7 @@ class Client
         'US'   => 'us',
     ];
 
-    const PLATFORM = [
+    const PLATFORMS = [
         'NINTENDO_SWITCH' => 'nintendo_switch',
         'PC'              => 'pc',
         'PLAYSTATION'     => 'psn',

@@ -40,7 +40,7 @@ use \OwAPI\Client;
 $client = new Client(); 
 
 // Get profile data for player Ori#21337 (it's me!), 
-$response = $client->profile(Client::PLATFORM['PC'], Client::REGIONS['EU'], 'Ori#21337');
+$response = $client->profile(Client::PLATFORMS['PC'], Client::REGIONS['EU'], 'Ori#21337');
 
 // Read the response
 if ($response->isSuccess()) {
@@ -49,11 +49,11 @@ if ($response->isSuccess()) {
 
 // Other available methods:
 // - ALL profile data, heavy endpoint
-$completeStats = $client->completeStats(Client::PLATFORM['PC'], Client::REGIONS['EU'], 'Ori#21337');
+$completeStats = $client->completeStats(Client::PLATFORMS['PC'], Client::REGIONS['EU'], 'Ori#21337');
 
 // - Get profile data for specific heroes:
 $heroesStats = $client->heroes(
-    Client::PLATFORM['PC'],
+    Client::PLATFORMS['PC'],
     Client::REGIONS['EU'],
     'Ori#21337',
     ['brigitte', 'mercy', 'ana']
