@@ -1,5 +1,5 @@
 {
-    "name": "fnev-eu/ow-api-php",
+    "name": "florianorineveu/ow-api-php",
     "description": "PHP wrapper for Ow-API",
     "keywords": ["api", "ow-api", "owapi", "overwatch", "php"],
     "homepage": "https://ow-api.com/",
@@ -9,7 +9,7 @@
         {
             "name": "Florian \"Ori\" Neveu",
             "email": "hello@fnev.eu",
-            "homepage": "https://fnev.eu"
+            "homepage": "https://florianneveu.com"
         }
     ],
     "require": {
